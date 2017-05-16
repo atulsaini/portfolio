@@ -8,7 +8,7 @@ It contains a index.html served via gulp serve task , bootstrap saas with custom
 it can be extended to write js app in proper modular structure.
 
 An extended version of this boilerplate uses lodash partials to render json data from localstorage and ajax request in ejs template partials.
-[Find it here](https://github.com/satyamyadav/resume)
+[Find it here]https://github.com/atulsaini/
 
 #### requirements
 
@@ -19,7 +19,7 @@ An extended version of this boilerplate uses lodash partials to render json data
 
 #### setup instructions
 
-  -  `git clone https://github.com/satyamyadav/simple-static.git`
+  -  `git clone https://github.com/atulsaini/portfolio.git`
 
   - `cd simple-static`
 
@@ -61,6 +61,3 @@ An extended version of this boilerplate uses lodash partials to render json data
   - `gulp compile`   compile everything
 
   - `gulp watch`   watch and build during development
-
-
-[*find example here* - ` http://satyamyadav.github.io/simple-static`](http://satyamyadav.github.io/simple-static)
