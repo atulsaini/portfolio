@@ -1,0 +1,52 @@
+@media (min-width: 768px){
+  .left-side-container{
+    position: fixed;
+    top: 51px;
+    left: 225px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: #222;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+  }
+}
+
+
+
+// $range: 200;
+//
+// @for $i from 0 through $range {
+// .margin-#{$i} { margin: #{$i}px; }
+// }
+// @for $i from 0 through $range {
+// .margin-top-#{$i} { margin-top: #{$i}px; }
+// }
+// @for $i from 0 through $range {
+// .margin-bottom-#{$i} { margin-bottom: #{$i}px; }
+// }
+// @for $i from 0 through $range {
+// .margin-left-#{$i} { margin-left: #{$i}px; }
+// }
+// @for $i from 0 through $range {
+// .margin-right-#{$i} { margin-right: #{$i}px; }
+// }
+//
+// @for $i from 0 through $range {
+// .padding-#{$i} { padding: #{$i}px; }
+// }
+// @for $i from 0 through $range {
+// .padding-top-#{$i} { padding-top: #{$i}px; }
+// }
+// @for $i from 0 through $range {
+// .padding-bottom-#{$i} { padding-bottom: #{$i}px; }
+// }
+// @for $i from 0 through $range {
+// .padding-left-#{$i} { padding-left: #{$i}px; }
+// }
+// @for $i from 0 through $range {
+// .padding-right-#{$i} { padding-right: #{$i}px; }
+// }
