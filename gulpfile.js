@@ -110,6 +110,7 @@ gulp.task('assets', function () {
   gulp.src(['app/assets/img/**/*.*']).pipe(dest('img'));
   gulp.src(['app/assets/css/**/*.*']).pipe(dest('css'));
   gulp.src(['app/assets/data/**/*.*']).pipe(dest('data'));
+  gulp.src(['app/assets/pdf/**/*.*']).pipe(dest('pdf'));
 });
 
 // clean build

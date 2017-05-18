@@ -1,6 +1,7 @@
 // common class
 .site-main-color{color: #56BDE8;}
 .site-main-color-bk{background-color: #56BDE8;}
+.white-color{color: white;}
 .site-main-text-color{color: #838a92;}
 .float-left{float: left;}
 .width-94{width: 94% !important;}
@@ -51,6 +52,15 @@ body{
         margin-bottom: -15px;
         color: #56BDE8;
       }
+
+      .contact-menu
+      .circle-main{
+        padding-top: 3px;
+        i{
+          color: #56BDE8;
+        }
+      }
+
 
       .biography-text{
         color: #838a92;
@@ -256,6 +266,12 @@ body{
 }
 
 
+a:hover,
+a:focus{
+  color: white;
+}
+
+
 
 /*==========  Slide Out  ==========*/
 .slide-out-overlay {
@@ -302,31 +318,34 @@ body{
 }
 
 
-// print
 
 
 
-    @page {
-        size: A4;
-        margin: 0;
-    }
-    @media print {
-        .page {
-            margin: 0;
-            // border: initial;
-            // border-radius: initial;
-            // width: initial;
-            // min-height: initial;
-            // box-shadow: initial;
-            // background: initial;
-            // page-break-after: always;
-        }
-    }
 /*------end slide-out--------*/
 
+.float-button-shopping {
+    position: fixed;
+    bottom: 60px;
+    right: 0px;
+    z-index: 100;
+}
 
-// @media (min-width: 992px){
-//   .container {
-//       width: 100% !important;
-//   }
-// }
+.printCv {
+    background-color: #009688;
+    color: #fff;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.13), 0 6px 10px rgba(0,0,0,.3);
+}
+
+.printCv {
+    position: absolute;
+    bottom: -30px;
+    right: 60px;
+    z-index: 99;
+}

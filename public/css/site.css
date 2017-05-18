@@ -20038,6 +20038,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .site-main-color-bk {
   background-color: #56BDE8; }
 
+.white-color {
+  color: white; }
+
 .site-main-text-color {
   color: #838a92; }
 
@@ -20095,6 +20098,14 @@ body {
 .left-side-container .side-container-body .biography-body .body-head-h4 h4,
 .left-side-container .side-container-body .contact-body .body-head-h4 h4 {
   margin-bottom: -15px;
+  color: #56BDE8; }
+
+.left-side-container .side-container-body .biography-body .contact-menu .circle-main,
+.left-side-container .side-container-body .contact-body .contact-menu .circle-main {
+  padding-top: 3px; }
+
+.left-side-container .side-container-body .biography-body .contact-menu .circle-main i,
+.left-side-container .side-container-body .contact-body .contact-menu .circle-main i {
   color: #56BDE8; }
 
 .left-side-container .side-container-body .biography-body .biography-text,
@@ -20249,6 +20260,10 @@ body {
   .col-width-80 {
     width: 100% !important; } }
 
+a:hover,
+a:focus {
+  color: white; }
+
 /*==========  Slide Out  ==========*/
 .slide-out-overlay {
   position: fixed;
@@ -20287,12 +20302,27 @@ body {
     width: 95%;
     left: -110%; } }
 
-@page {
-  size: A4;
-  margin: 0; }
-
-@media print {
-  .page {
-    margin: 0; } }
-
 /*------end slide-out--------*/
+.float-button-shopping {
+  position: fixed;
+  bottom: 60px;
+  right: 0px;
+  z-index: 100; }
+
+.printCv {
+  background-color: #009688;
+  color: #fff;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.13), 0 6px 10px rgba(0, 0, 0, 0.3); }
+
+.printCv {
+  position: absolute;
+  bottom: -30px;
+  right: 60px;
+  z-index: 99; }

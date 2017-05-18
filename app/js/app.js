@@ -51,7 +51,8 @@ app.components.site = function (body) {
     $('.slide-out').removeClass('open');
   });
 
-$('.print').on('click', function(){
-  window.print();
+  var printCv = $('.printCv');
 
-});
+// printCv.on('click', function(){
+//   window.print();
+// });
